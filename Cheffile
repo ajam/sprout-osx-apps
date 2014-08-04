@@ -6,6 +6,9 @@ cookbook 'homebrew'
 cookbook 'zip_app',
   :git => 'git://github.com/fnichol/chef-zip_app.git', :ref => 'v0.2.2'
 
+cookbook 'oh-my-zsh', '~> 0.4.3'
+cookbook 'psql', '~> 0.1.0'
+
 cookbook 'sprout-osx-apps', :path => '.'
 cookbook 'osx', :github => 'pivotal-sprout/osx'
 cookbook 'sprout-base', :github => 'pivotal-sprout/sprout-base'
