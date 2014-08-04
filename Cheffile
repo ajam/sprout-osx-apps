@@ -3,6 +3,9 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'dmg', '2.0.4'
 cookbook 'homebrew'
 
+cookbook 'zip_app',
+  :git => 'git://github.com/fnichol/chef-zip_app.git', :ref => 'v0.2.2'
+
 cookbook 'sprout-osx-apps', :path => '.'
 cookbook 'osx', :github => 'pivotal-sprout/osx'
 cookbook 'sprout-base', :github => 'pivotal-sprout/sprout-base'
