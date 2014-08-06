@@ -1,4 +1,4 @@
-script "install_python_libraries" do
+script "install_brew_formulas" do
   interpreter "bash"
   user "root"
   cwd "/tmp"
